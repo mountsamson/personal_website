@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto; /* Add this line */
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto; /* Add this line */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase; /* Add this line */
+  text-align: right;
+  padding-right: 70px;
+}
+
+nav ul li a {
+  text-decoration: none; /* Add this line */
+  color: white;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+  margin: 0 auto; /* Add this line */
+  color: white;
+}
+
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  overflow: hidden;
+  filter: blur(2px) brightness(0.5);
+}
+
+#video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(2);
+}
+
+section {
+  margin-bottom: 40px;
+  margin: 0 auto; /* Add this line */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto; /* Add this line */
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.clicked {
+  transform: scale(0.95);
+}
+
+h2#contact-me {
+  text-align: center;
+  padding: 2lh;
+  margin: 0; /* Add this line */
+  justify-content: center;
+}
+
+footer {
+  position: fixed; /* Change this line */
+  width: 100%; /* Add this line */
+  bottom: 0;
+  background-color: black;
+  text-align: left;
+  padding-top: 30px;
+  color: white;
+}
+
+#company-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 100px; /* Increase the height value */
+  width: 100px; /* Increase the width value */
+  padding-left: 70px;
+}
+
+input,
+select {
+  border-radius: 20px; /* Add this line */
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px; /* Adjust this value to set the limit for the text width */
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: sans-serif;
+}
+ul i {
+  font-size: 30px; /* Adjust this value to make the icons larger or smaller */
+}
